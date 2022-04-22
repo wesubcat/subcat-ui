@@ -1,0 +1,24 @@
+name: CI - build and test
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: yarn install 
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install # will run `yarn install` command
+      - name: yarn build
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: build # will run `yarn build` command
+      - name: yarn test
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: test # will run `yarn test` command
