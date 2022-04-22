@@ -15,3 +15,4 @@ jobs:
           vercel-args: '--prod' #Optional
           vercel-org-id: ${{ secrets.VERCEL_SUBCAT_ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.VERCEL_SUBCAT_UI_PROJECT_ID}} #Required 
+          vercel-project-name: 'subcat-ui'
