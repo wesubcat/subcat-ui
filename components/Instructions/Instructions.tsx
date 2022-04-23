@@ -11,7 +11,7 @@ export const Instructions = (): JSX.Element => {
             <p className="font-bold">1. lorem ipsum</p>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s.
             </p>
           </div>
@@ -21,7 +21,7 @@ export const Instructions = (): JSX.Element => {
             <p className="font-bold">2. lorem ipsum</p>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s.
             </p>
           </div>
@@ -34,7 +34,7 @@ export const Instructions = (): JSX.Element => {
             <p className="font-bold">3. lorem ipsum</p>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s.
             </p>
           </div>
