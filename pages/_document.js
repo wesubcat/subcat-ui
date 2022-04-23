@@ -8,7 +8,7 @@ export default function Document() {
           rel="stylesheet"
         ></link>
       </Head>
-      <body className="bg-light-yellow">
+      <body className="bg-primary-color text-primary-font-color">
         <Main />
         <NextScript />
       </body>

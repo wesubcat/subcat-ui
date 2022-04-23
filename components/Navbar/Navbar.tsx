@@ -3,10 +3,10 @@ import Link from "next/link";
 export const Navbar = (): JSX.Element => {
   return (
     <nav>
-      <ul className="flex flex-row text-2xl text-strong-brown">
+      <ul className="flex flex-row text-lg md:text-2xl text-primary-text-color">
         <li>
           <Link href="/">
-            <a className="mr-10">home</a>
+            <a className="mr-10 font-bold">home</a>
           </Link>
         </li>
         <li>
